@@ -1,7 +1,7 @@
 'use strict';
 
 let cache = require('./cache.js');
-
+const superagent = require('superagent');
 module.exports = getWeather;
 
 function getWeather(latitude, longitude) {
